@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
 
 </head>
 <body>
@@ -17,38 +18,36 @@
                <b>12:30 AM</b> 
 
             </div>
-            <div class="result">
+            <div >
+                <input type="text" id="displ" class="result" readonly>
 
+            <div class="functions" id="keys">
+                <button class="ac" onclick="removeall()">AC</button>
+                <button class="f" onclick="addParentheses()">()</button>
+                <button class="f" onclick="addtoresult('%')">%</button>
+                <button class="f" onclick="addtoresult('/')">/</button>
+                <button onclick="addtoresult('7')">7</button>
+                <button onclick="addtoresult('8')">8</button>
+                <button onclick="addtoresult('9')">9</button>
+                <button class="f" onclick="addtoresult('*')">*</button>
+                <button onclick="addtoresult('4')">4</button>
+                <button onclick="addtoresult('5')">5</button>
+                <button onclick="addtoresult('6')">6</button>
+                <button class="f" onclick="addtoresult('-')">-</button>
+                <button onclick="addtoresult('1')">1</button>
+                <button onclick="addtoresult('2')">2</button>
+                <button onclick="addtoresult('3')">3</button>
+                <button class="f" onclick="addtoresult('+')">+</button>
+                <button onclick="addtoresult('0')">0</button>
+                <button class="f" onclick="addtoresult('.')">.</button>
+                <button class="ac" onclick="deleteLastCharacter()">CE</button>
+                <button class="r" onclick="result()">=</button>
 
-            </div>
-
-            <div class="functions">
-                <button class="ac">AC</button>
-                <button class="f">()</button>
-                <button class="f">%</button>
-                <button class="f">/</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="f">x</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="f">-</button>
-                <button >1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="f">+</button>
-                <button>0</button>
-                <button class="f">.</button>
-                <button class="ac">CE</button>
-                <button class="r">=</button>
-
-
-                
             </div>
 
         </div>
     </center>
+
+    <script src="javascri.js"></script>
 </body>
 </html>
