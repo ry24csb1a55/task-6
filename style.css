@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #d4f0b9;
-    background-image: url(pexels-felixmittermeier-956999.jpg); 
+    background-color: rgb(164, 240, 180);
+    /* background-image: url(pexels-felixmittermeier-956999.jpg);  */
     background-size: cover;
     background-position: center;
 }
@@ -31,7 +31,7 @@ h1:hover{
     height: 546px;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(255, 255, 255,0.9);
 
 }
 .mainbody:hover{
